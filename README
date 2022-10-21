@@ -1,0 +1,5 @@
+conda create --prefix ./env python=3.8 -y
+source activate
+source activate ./env
+pip install labelImg
+labelImg
